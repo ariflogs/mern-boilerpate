@@ -1,0 +1,8 @@
+{
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#00346e",
+        "activityBar.background": "#00346e",
+    }
+}

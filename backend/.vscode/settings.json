@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "materialTheme.accent": "Cyan",
+    "editor.tabSize": 2,
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#023f1f",
+        "activityBar.background": "#023f1f",
+    },
+    "editor.formatOnSave": true
+}
