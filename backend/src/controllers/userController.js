@@ -40,18 +40,7 @@ const userSignup = async (req, res) => {
 
     // ++++++++++++++++ Sending email for verification ++++++++++++++
     const smtpTransport = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 465,
-      secure: true,
-      auth: {
-        type: "OAuth2",
-        user: "devarifhossain@gmail.com",
-        clientId:
-          "859037656694-fptrbcdchl5d7cc6jiabvq2vqt8rt0ka.apps.googleusercontent.com",
-        clientSecret: "NQ9hHAt44R8CiHIlqEnJm1GQ",
-        refreshToken:
-          "1//04rMFLiHqgRJGCgYIARAAGAQSNwF-L9IrHtXxAdqFcw8AG5qLPoxkvNn0KsoIS-Y79EtGO3qkhCrtZjHQaJC3IJ30SlGSzgqUA_w"
-      }
+      // fll with your smtp credentials
     });
 
     const host = req.get("host");
