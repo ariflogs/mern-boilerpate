@@ -7,7 +7,7 @@
     "dotenv": "^8.2.0",
     "easy-peasy": "^3.3.0",
     "formik": "^2.1.4",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "notistack": "^0.9.9",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
